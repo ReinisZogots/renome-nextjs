@@ -1,0 +1,33 @@
+@import "./Colors.module.scss";
+
+.cart {
+    position: absolute;
+    background-color: $white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: $black;
+    font-weight: 700;
+    top: 65px;
+    right: 43px;
+    width: 116px;
+    height: 140px;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    overflow: hidden;
+    z-index: 100;
+  
+    &__item {
+      text-decoration: none;
+      -webkit-tap-highlight-color: transparent;
+      color: $black;
+    }
+  
+    &__item:focus {
+      color: $subheading-brown;
+    }
+  }
+  

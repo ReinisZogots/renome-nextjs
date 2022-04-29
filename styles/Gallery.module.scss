@@ -1,0 +1,40 @@
+@import "./Colors.module.scss";
+
+.gallery {
+    display: block;
+    background: $gallery-background-light-gray;
+    text-align: center;
+  
+    &__heading {
+      padding-top: 70px;
+      margin: 0;
+      font-family: "Axis", sans-serif;
+      letter-spacing: 8px;
+      color: $heading-black;
+      font-size: 38px;
+      text-transform: lowercase;
+    }
+  
+    &__subheading {
+      padding: 10px 0px 14px 15px;
+      margin: 0;
+      font-size: 11px;
+      letter-spacing: 1px;
+      color: $subheading-brown;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+    }
+  
+    &__image-container {
+      display: grid;
+      padding: 10px 10px 70px;
+      justify-content: center;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+  
+    &__image {
+      width: 100%;
+    }
+  }

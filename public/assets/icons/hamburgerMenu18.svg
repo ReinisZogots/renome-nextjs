@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 18" width="20" height="18">
+	<title>hamburger-menu-20-svg</title>
+	<defs>
+		<image width="19" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAYAAAD0xERiAAAAAXNSR0IArs4c6QAAACBJREFUOE9jZKAiYKSiWQyjhpEemqNhNhpmOEJghCQNAC24ABHslHy4AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #000000 } 
+	</style>
+	<use id="img1" href="#img1" transform="matrix(1,0,0,1,0.5,1)"/>
+	<path id="Shape 1" class="shp0" d="M1 1L19 1L19 3L1 3L1 1Z" />
+	<path id="Shape 2" class="shp0" d="M1 8L19 8L19 10L1 10L1 8Z" />
+	<path id="Shape 3" class="shp0" d="M1 15L19 15L19 17L1 17L1 15Z" />
+</svg>

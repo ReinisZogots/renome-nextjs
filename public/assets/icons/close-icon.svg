@@ -1,0 +1,13 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 18" width="20" height="18">
+	<title>close-icon</title>
+	<defs>
+		<image width="19" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAYAAAD0xERiAAAAAXNSR0IArs4c6QAAACBJREFUOE9jZKAiYKSiWQyjhpEemqNhNhpmOEJghCQNAC24ABHslHy4AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #000000 } 
+	</style>
+	<use id="img1" href="#img1" transform="matrix(1,0,0,1,.5,1)"/>
+	<path id="Shape 1" class="s0" d="m3 14.73l12.73-12.73l1.41 1.41l-12.73 12.73l-1.41-1.41z" />
+	<path id="Shape 2" class="s0" d="m4.34 1.93l12.73 12.73l-1.41 1.41l-12.73-12.73l1.41-1.41z" />
+</svg>

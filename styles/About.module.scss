@@ -1,0 +1,53 @@
+@import "./Colors.module.scss";
+
+.about {
+    &__image-container {
+      position: relative;
+      margin: 70px 10px;
+      display: grid;
+    }
+  
+    &__left-image {
+      grid-column: 2 / 11;
+      grid-row: 1 / 6;
+      width: 100%;
+    }
+  
+    &__right-image {
+      grid-column: 1 / 10;
+      grid-row: 5 / 10;
+      width: 100%;
+    }
+  
+    &__text-container {
+      margin: 0 10px;
+    }
+  
+    &__heading {
+      margin: 0;
+      font-size: 38px;
+      font-family: "Axis", sans-serif;
+      letter-spacing: 8px;
+      text-transform: lowercase;
+      color: $heading-black;
+    }
+  
+    &__subheading {
+      font-size: 11px;
+      letter-spacing: 1px;
+      color: $subheading-brown;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+    }
+  
+    &__description {
+      font-size: 12px;
+      letter-spacing: 2px;
+      line-height: 30px;
+      color: $paragraph-dark-grey;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+      padding-bottom: 60px;
+    }
+  }

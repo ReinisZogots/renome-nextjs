@@ -1,0 +1,47 @@
+@import "./Colors.module.scss";
+
+.footer {
+    height: 220px;
+    text-align: center;
+    background-color: $footer-background-light-gray;
+  
+    &__heading {
+      text-transform: uppercase;
+      margin: 0;
+      padding-top: 30px;
+      font-size: 12px;
+      color: $heading-black;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+    }
+  
+    &__social-media {
+      padding-top: 15px;
+      margin: 0;
+  
+      a {
+        -webkit-tap-highlight-color: transparent;
+      }
+      
+      &__icon {
+        width: 34px;
+        height: 34px;
+        margin: 0 5px;
+      }
+    }
+  
+    &__logo {
+      width: 76px;
+      padding-top: 30px;
+    }
+  
+    &__copyright-text {
+      text-transform: uppercase;
+      margin: 0;
+      padding-top: 25px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: $heading-black;
+      font-family: "Axis", sans-serif;
+    }
+  }

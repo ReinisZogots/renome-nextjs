@@ -1,0 +1,100 @@
+@import "./Colors.module.scss";
+
+.submenu {
+    position: absolute;
+    background-color: $white;
+    z-index: 100;
+    top: 65px;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+  
+    &__section {
+      border-top: 2px solid $menu-border-gray;
+      -webkit-tap-highlight-color: transparent;
+  
+      &__back-section {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+  
+        img {
+          border: 2px solid $menu-border-gray;
+          width: 18px;
+          height: 18px;
+          padding: 10px;
+          margin: 6px 10px;
+        }
+      }
+  
+      &__submenu-text {
+        font-family: "Montserrat", sans-serif;
+        text-decoration: none;
+        display: block;
+        padding: 20px 20px 20px 10px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: $black;
+        font-weight: 900;
+        -webkit-tap-highlight-color: transparent;
+  
+        &__back-text {
+          text-transform: uppercase;
+        }
+      }
+  
+      &__submenu-text:focus {
+        color: $subheading-brown;
+      }
+    }
+  }
+  
+  
+  .footer {
+    height: 220px;
+    text-align: center;
+    background-color: $footer-background-light-gray;
+  
+    &__heading {
+      text-transform: uppercase;
+      margin: 0;
+      padding-top: 30px;
+      font-size: 12px;
+      color: $heading-black;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+    }
+  
+    &__social-media {
+      padding-top: 15px;
+      margin: 0;
+  
+      a {
+        -webkit-tap-highlight-color: transparent;
+      }
+      
+      &__icon {
+        width: 34px;
+        height: 34px;
+        margin: 0 5px;
+      }
+    }
+  
+    &__logo {
+      width: 76px;
+      padding-top: 30px;
+    }
+  
+    &__copyright-text {
+      text-transform: uppercase;
+      margin: 0;
+      padding-top: 25px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: $heading-black;
+      font-family: "Axis", sans-serif;
+    }
+  }

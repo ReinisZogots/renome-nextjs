@@ -1,0 +1,60 @@
+@import "./Colors.module.scss";
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: $white;
+    z-index: 1000;
+    
+    &__logo {
+      height: 25px;
+      margin: 10px;
+    }
+  
+    &__button-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px;
+      padding-bottom: 27px;
+  
+      &__cart-icon {
+        display: block;
+        height: 12px;
+      }
+  
+      &__cart-item-count {
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        color: $black;
+        font-weight: 900;
+        margin-top: 2px;
+        padding-left: 11px;
+        padding-right: 15px;
+      }
+  
+      &__vertical-line-icon {
+        display: block;
+        height: 16px;
+        padding-right: 14px;
+      }
+  
+      &__hamburger-icon {
+        width: 20px;
+        display: block;
+        user-select: none;
+      }
+      button {
+        width: 100%;
+        padding: 0;
+        cursor: pointer;
+        border: none;
+        background: transparent;
+        -webkit-tap-highlight-color: transparent;
+      }
+    }
+  }
