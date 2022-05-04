@@ -1,5 +1,6 @@
 import React from "react";
 import Structure from "../structure.json";
+import Image from "next/image";
 import styles from"../../styles/Gallery.module.scss";
 
 const Gallery = () => {
@@ -15,12 +16,15 @@ const Gallery = () => {
       <div className={styles["gallery__image-container"]}>
         {Images.map((image, index) => {
           return (
-            <img
-              className={styles.gallery__image}
-              src={image.path}
-              alt={image.altTag}
-              key={index}
-            />
+            <div className={styles.gallery__image} key={index} >
+              <Image
+                src={image.path}
+                alt={image.altTag}
+                width={50}
+                height={50}
+                layout="responsive"
+              />
+            </div>
           );
         })}
       </div>

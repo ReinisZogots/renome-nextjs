@@ -22,11 +22,6 @@
       margin: 10px;
       padding-bottom: 27px;
   
-      &__cart-icon {
-        display: block;
-        height: 12px;
-      }
-  
       &__cart-item-count {
         font-family: "Montserrat", sans-serif;
         font-size: 12px;
@@ -38,9 +33,7 @@
       }
   
       &__vertical-line-icon {
-        display: block;
-        height: 16px;
-        padding-right: 14px;
+        padding: 3px 14px 0 0;
       }
   
       &__hamburger-icon {

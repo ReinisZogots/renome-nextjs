@@ -3,7 +3,7 @@
 .carousel {
   position: relative;
   width: 100%;
-  padding-top: 65px;
+  padding-top: 75px;
 
   &__slide-container {
     display: flex;
@@ -24,11 +24,14 @@
   } 
 
   &__slide-button {
-      img {
+      &__arrow {
         padding: 12px;
         border: 2px solid $white;
         cursor: pointer;
         display: block;
+        width: 24px;
+        height: 24px;
+        user-select: none;
         -webkit-tap-highlight-color: transparent;
       }
     }
@@ -38,11 +41,6 @@
     position: absolute;
     box-sizing: border-box;
     transition: transform ease-in-out 0.2s;
-  
-    img {
-      width: 100%;
-      display: block;
-    }
   }
   
   &__slogan-container {

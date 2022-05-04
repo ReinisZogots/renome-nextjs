@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Structure from "../structure.json";
 import styles from "../../styles/Menu.module.scss"
 
@@ -15,7 +16,7 @@ const Menu = ({ toggleSubMenu }) => {
             name="search"
             placeholder="Search..."
           />
-          <img src="/assets/icons/search.svg" alt="Magnifying glass icon" />
+          <Image width={14} height={17} src="/assets/icons/search.svg" alt="Magnifying glass icon" />
         </li>
       );
     } else if (menuItem.isSubMenu) {
@@ -28,7 +29,9 @@ const Menu = ({ toggleSubMenu }) => {
           <a className={styles.menu__section__text} href={menuItem.url}>
             {menuItem.title}
           </a>
-          <img src="/assets/icons/arrow-right-features.svg" alt="Right arrow icon" />
+          <div className={styles.menu__section__features__arrow}>
+            <Image width={18} height={18} src="/assets/icons/arrow-right-features.svg" alt="Right arrow icon" />
+          </div>
         </li>
       );
     } else {
