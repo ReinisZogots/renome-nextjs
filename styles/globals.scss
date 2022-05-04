@@ -1,3 +1,4 @@
+@import "./Colors.module.scss";
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -27,4 +28,23 @@ body {
 
 .noScroll {
   overflow-y: hidden;
+}
+
+.not_found {
+  
+  text-align: center;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  color: $black;
+  
+  &__slogan {
+    padding-top: 75px;
+  }
+
+  a {
+    color: #4979ff;
+    text-decoration: underline;
+  }
 }

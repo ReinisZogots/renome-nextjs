@@ -28,6 +28,7 @@
   
     &__image-container {
       display: grid;
+      position:"relative";
       padding: 10px 10px 70px;
       justify-content: center;
       grid-template-columns: 1fr 1fr;

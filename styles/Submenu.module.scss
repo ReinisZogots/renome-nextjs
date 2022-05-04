@@ -21,7 +21,7 @@
         cursor: pointer;
         -webkit-tap-highlight-color: transparent;
   
-        img {
+        &__arrow {
           border: 2px solid $menu-border-gray;
           width: 18px;
           height: 18px;

@@ -40,11 +40,6 @@
         display: flex;
         margin: 20px 10px;
         justify-content: space-between;
-  
-        img {
-          width: 14px;
-          height: auto;
-        }
       }
   
       &__search-input {
@@ -69,7 +64,7 @@
         justify-content: space-between;
         -webkit-tap-highlight-color: transparent;
   
-        img {
+        &__arrow {
           border: 2px solid $menu-border-gray;
           width: 18px;
           height: 18px;

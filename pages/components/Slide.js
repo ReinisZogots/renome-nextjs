@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import styles from "../../styles/Carousel.module.scss";
 
 const Slide = ({
@@ -32,7 +33,7 @@ const Slide = ({
 
   return (
     <div className={`${styles.carousel__slide} ${styles[position]} ${styles[zIndexReduce]}`}>
-      <img src={path} alt={altTag} />
+      <Image width={320} height={450} layout="responsive" src={path} alt={altTag} />
       <div className={styles["carousel__slogan-container"]}>
         <h2 className={styles["carousel__slogan--heading"]}>{title}</h2>
         <h4 className={styles["carousel__slogan--subheading"]}>{subTitle}</h4>

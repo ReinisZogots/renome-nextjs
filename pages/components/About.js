@@ -1,5 +1,8 @@
 import React from "react";
+import Image from "next/image";
 import Structure from "../structure.json";
+import leftImage from "../../public/assets/images/about_img_2.png";
+import rightImage from "../../public/assets/images/about_img_1.png";
 import styles from "../../styles/About.module.scss";
 
 const About = () => {
@@ -8,16 +11,20 @@ const About = () => {
   return (
     <div className={styles.about}>
       <div className={styles["about__image-container"]}>
-        <img
-          className={styles["about__left-image"]}
-          src="/assets/images/about_img_2.png"
-          alt="Top floor of a house with one window"
-        />
-        <img
-          className={styles["about__right-image"]}
-          src="/assets/images/about_img_1.png"
-          alt="Two story house surrounded by trees"
-        />
+        <div className={styles["about__left-image"]}>
+          <Image
+            src={leftImage}
+            alt="Top floor of a house with one window"
+            layout="responsive"
+          />
+        </div>
+        <div className={styles["about__right-image"]}>
+          <Image
+            src={rightImage}
+            alt="Two story house surrounded by trees"
+            layout="responsive"
+          />
+        </div>
       </div>
       <div className={styles["about__text-container"]}>
         <h2 className={styles.about__heading}>{aboutData.title}</h2>
