@@ -1,7 +1,8 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
-import Structure from "../structure.json";
-import styles from "../../styles/Menu.module.scss"
+import Structure from "../shared/jsons/structure.json";
+import styles from "../styles/Menu.module.scss"
 
 const Menu = ({ toggleSubMenu }) => {
   const dropDown = Structure?.menu;
@@ -37,9 +38,9 @@ const Menu = ({ toggleSubMenu }) => {
     } else {
       return (
         <li className={styles.menu__section} key={index}>
-          <a className={styles.menu__section__text} href={menuItem.url}>
-            {menuItem.title}
-          </a>
+          <Link href={menuItem.url}>
+            <a className={styles.menu__section__text}>{menuItem.title}</a>
+          </Link>
         </li>
       );
     }

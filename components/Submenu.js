@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Structure from "../structure.json";
-import styles from "../../styles/Submenu.module.scss";
+import Structure from "../shared/jsons/structure.json";
+import styles from "../styles/Submenu.module.scss";
 
 const Submenu = ({ toggleSubMenu, setIsSubMenuOpen }) => {
   const subDropDown = Structure?.menu;

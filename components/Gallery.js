@@ -1,7 +1,7 @@
 import React from "react";
-import Structure from "../structure.json";
+import Structure from "../shared/jsons/structure.json";
 import Image from "next/image";
-import styles from"../../styles/Gallery.module.scss";
+import styles from"../styles/Gallery.module.scss";
 
 const Gallery = () => {
   const Gallery = Structure.gallery;

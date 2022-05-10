@@ -1,6 +1,6 @@
 import React from "react";
-import Structure from "../structure.json";
-import styles from "../../styles/cart.module.scss"
+import Structure from "../shared/jsons/structure.json";
+import styles from "../styles/cart.module.scss"
 
 const Cart = () => {
   const cart = Structure.cart;
