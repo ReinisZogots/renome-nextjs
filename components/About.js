@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import Structure from "../structure.json";
-import leftImage from "../../public/assets/images/about_img_2.png";
-import rightImage from "../../public/assets/images/about_img_1.png";
-import styles from "../../styles/About.module.scss";
+import Structure from "../shared/jsons/structure.json";
+import leftImage from "../public/assets/images/about_img_2.png";
+import rightImage from "../public/assets/images/about_img_1.png";
+import styles from "../styles/About.module.scss";
 
 const About = () => {
   const aboutData = Structure.about;

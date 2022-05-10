@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Structure from "../structure.json";
+import Structure from "../shared/jsons/structure.json";
 import Slide from "../components/Slide";
 import SlideButton from "../components/SlideButton";
-import styles from "../../styles/Carousel.module.scss";
+import styles from "../styles/Carousel.module.scss";
 
 const Carousel = () => {
   const slideData = Structure?.carousel;

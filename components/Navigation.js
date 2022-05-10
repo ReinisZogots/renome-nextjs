@@ -3,7 +3,7 @@ import Menu from "./Menu";
 import Cart from "./Cart";
 import Submenu from "./Submenu";
 import Image from "next/image";
-import styles from "../../styles/Navigation.module.scss"
+import styles from "../styles/Navigation.module.scss"
 
 const Navigation = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
