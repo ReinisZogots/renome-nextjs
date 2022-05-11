@@ -1,0 +1,43 @@
+@import "./Colors.module.scss";
+
+.blogs {
+  &__header {
+    padding-top: 75px;
+    margin: 0 20px;
+    font-size: 30px;
+    font-family: "Axis", sans-serif;
+  }
+
+  &__subHeader {
+    margin: 5px 20px 0;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: $subheading-brown;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+
+  &__singleBlog_title {
+    padding: 2px 16px;
+    background: $footer-background-light-gray;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: $paragraph-dark-grey;
+    display: block;
+    margin: 20px 10px;
+    border-left: 8px solid $white;
+    text-decoration: none;
+  }
+  &__singleBlog_title:hover {
+    border-left: 8px solid $subheading-brown;
+  }
+
+  &__text {
+    margin: 10px 20px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+}
